@@ -253,3 +253,143 @@
 // console.log(fullName)
 // Result is HabibMohsin
 
+// Chapter 9 (Prompts)
+
+// Ans No.1
+// var firstName = prompt("Enter first name");
+
+// Ans No.2
+// var yourCountryName = "Country?";
+// var defaultCountry = "China";
+// var countryInput = prompt(yourCountryName, defaultCountry);
+
+// Ans No.3
+// var yourName = prompt("Enter Your Name");
+
+// Ans No.4
+// var enterYourName = "Full Name";
+// var likeThis = "Like This Habib Mohsin";
+// var userName = prompt(interYourName, likeThis);
+
+// Ans No.5
+// var enterEmail = "Enter Email Address";
+// var likeThis = "abcd1234@gmail.com";
+// var emailAddress = prompt(enterEmail, likeThis);
+// console.log(emailAddress);
+
+// Ans No.6
+// var enterEmail = "Enter Email Address";
+// var likeThis = "abcd1234@gmail.com";
+// var emailAddress = prompt(enterEmail, likeThis);
+// console.log("Message :", enterEmail);
+// console.log("Defaul Value :", likeThis);
+// console.log("User Input :", emailAddress);
+
+// Chapter 10 (if statments)
+
+// Ans No.1
+// var city = "Karachi"
+// if (city = "Karachi") {
+// console.log("The City OF Lights")}
+
+// Ans No.2
+// var x = 20;
+// var y = 20;
+// var inputZ = "Input The Value Of Z"
+// var defaultInput = "Only Numbers"
+// if(x === y){
+//     var z = prompt(inputZ, defaultInput)
+//     console.log(z)
+// }
+
+// Ans No.3
+// var zipCode = prompt("Enter ZipCode");
+// if(zipCode == 10010){
+//     alert ("Karachi")
+// }
+// else(alert ("Please write correct city"));
+
+// Ans No.4
+// var x = 1;
+// if(x=1){
+//     x = 10;
+//     console.log("var x =", x);
+// }
+
+// Chapter 11 (Comparison Operators)
+
+// Ans No.1
+// var x = "Habib Mohsin";
+// var y = "Habib Moosa";
+// if(x !== y){
+//     console.log("Not Match")
+// };
+
+// Ans No.2
+// var x = 10;
+// var y = prompt("Input Any Number");
+
+// if (x <= y) {
+//   console.log("var x = ", x);
+//   console.log("var y = ", y);
+// } else console.log("Try Again");
+
+// Ans No.3
+// var message = "Enter Any Number";
+// var defaultInput = "Enter Only 10";
+// var x = prompt(message, defaultInput);
+
+// if(x !== 10){
+//     x = 10
+//     console.log(x)
+// }
+
+// Ans No.4
+// var x = "Habib";
+// var y = "Mohsin";
+
+// if(x !== y){
+// alert("congratulations")
+// }
+
+// Ans No.5
+// var x = prompt("Enter Full Name");
+// var y = "Mohsin";
+
+// if(x !== y){
+// alert("No Match"
+//     )
+// }
+
+// Chapter 12 (if…else and else if statements)
+
+// Ans No.1
+// var x = prompt("Enter Full Name");
+// var y = "Habib Mohsin";
+
+// if(x === y){
+// alert("Match"
+//     )
+// }else alert("No Match")
+
+// Ans No.2
+// var urdu = +prompt("Enter Obtain Urdu Marks");
+// console.log("Urdu Marks :", urdu);
+// var maths = +prompt("Enter Obtain Maths Marks");
+// console.log("Maths Marks :", maths);
+// var physics = +prompt("Enter Obtain Physics Marks",);
+// console.log("Physics Marks :", physics);
+// var english = +prompt("Enter Obtain English Marks",);
+// console.log("English Marks :", english);
+
+// var total = 500;
+// console.log("Total Marks :", total);
+// var totalObtain = urdu+maths+physics+english;
+// console.log("Total Obtain Marks :", totalObtain);
+// var percentage = (totalObtain/total)*100;
+// console.log("Total Obtain Percentage :", percentage,"%");
+
+// if(percentage >=40){
+//     alert("Grade Passed")
+// }
+// else alert("Fail Try Again");

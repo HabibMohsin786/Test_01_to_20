@@ -43,3 +43,76 @@
 // var caseQty = "";
 // caseQty = 144;
 // console.log(caseQty);
+
+// Ans No.3
+// var num = 9;
+// console.log(num);
+
+// Ans No.4
+// var num1 = 9;
+// var num2 = 25;
+// var sum = num1 + num2;
+// console.log(sum);
+
+// Ans No.5
+// var merchTotal = 100;
+// var shippingCharges = 10;
+// var orderTotal = merchTotal + shippingCharges;
+// console.log(orderTotal);
+
+// Ans No.6
+// var num = 40;
+// num = num + 10;
+// console.log(num);
+
+// Chapter 4 (Variable names Legal and Illegal)
+
+// Ans No.1
+// var productCost = 3.45;
+// console.log(productCost);
+
+// Ans No.2
+// var nameOfBand = "FAMAHA";
+// console.log(nameOfBand);
+
+// Ans No.3
+// var nameOfBand = "FAMAHA";
+// nameOfBand = 30;
+// console.log(nameOfBand);
+
+// Ans No.4
+// var firstName = "Habib";
+// var lastName = "Habib";
+// var fullName = firstName + (" ") + lastName;
+// console.log(fullName);
+
+// Ans No.5
+// Legal variable List
+
+// use camelCase
+// var myName = "Habib Mohsin";
+
+// use camelCase + Number
+// var myName2 = "Habib";
+
+// use Alphabets + Number
+// var name1 = "Habib Moosa"
+
+// use Underscores + camelCase
+// var _myName = "Habib Ali";
+
+// use Dollar Signs + camelCase
+// var $myName = "Habib Qadir";
+
+// console.log(myName, myName2, name1, _myName, $myName)
+
+//  Illegal variable List
+
+// don't use Space between Words
+// var my Name = "Habib Mohsin";
+
+// don't use numbers at start of Varialbe Namme
+// var 2myName = "Habib";
+
+// don't use JavaScript's keywords in Varialbe Namme
+// var var = "Habib Moosa";

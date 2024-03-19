@@ -49,8 +49,8 @@
 // console.log(num);
 
 // Ans No.4
-// var num1 = 9;
-// var num2 = 25;
+// var num1 = "9";
+// var num2 = "25";
 // var sum = num1 + num2;
 // console.log(sum);
 
@@ -120,7 +120,7 @@
 // Chapter 5 (Math Expression I)
 
 // Ans No.1
-// var arithmeticOperator = 35 / 7;
+// var arithmeticOperator = 35 % 7;
 // console.log(arithmeticOperator);
 
 // Ans No.2
@@ -207,7 +207,7 @@
 // Result is 18
 
 // Ans No.5
-// var calculatedNum = (2 + 2) * 4 + 10;
+// var calculatedNum = (2 + 2) * (4 + 10);
 // console.log(calculatedNum);
 // Result is 26 in result plus 10 than achieve 56
 
@@ -393,3 +393,41 @@
 //     alert("Grade Passed")
 // }
 // else alert("Fail Try Again");
+
+// Ans No.3
+
+// var a = 10;
+// if (a === 10) {
+//   alert("a is 10");
+// } else {
+//   alert("Enter Correct Value");
+// }
+
+// Ans No.4
+
+// var city = prompt("Enter Your City Name", "Karachi, Lahore etc.");
+
+// if ((city = "Karachi")) {
+//   alert("acknowledging it is Karachi");
+// }
+// if ((city = "Lahore")) {
+//   alert("acknowledging it is Karachi");
+// } else {
+//     alert("Enter Correct City Name");
+// }
+
+// Chapter 13 (Testing sets of conditions)
+
+// Ans No.1
+
+// var a = 10;
+// var b = 10;
+// var c = 25;
+// var d = 25;
+
+// if(a === b){
+//     console.log("a Same as b")
+// }
+// if(c === d){
+//     console.log("c Same as d")
+// }

@@ -419,7 +419,6 @@
 // Chapter 13 (Testing sets of conditions)
 
 // Ans No.1
-
 // var a = 10;
 // var b = 10;
 // var c = 25;
@@ -431,3 +430,150 @@
 // if(c === d){
 //     console.log("c Same as d")
 // }
+
+// Ans No.2
+// var a = 100;
+// var b = 100;
+// var c = 80;
+// var d = 50;
+
+// if (a == b || c!=d){
+//     console.log("a is same b but c is not same as d")
+// }
+
+// Ans No.3
+// var name1 = "Arsalan";
+// var ageOfArsalan = 60;
+// var name2 = "Hamza";
+// var ageOfHamza = 50;
+
+// if (ageOfArsalan >= 60) {
+//     console.log("Arsalan's Age is Perfect")
+// }
+// else { console.log("Arsalan's Age is not Perfect") }
+
+// if (ageOfHamza >= 60) {
+//     console.log("Hamza's Age is Perfect")
+// }
+// else { console.log("Hamza's Age is not Perfect") };
+
+// Ans No.4
+// var first = 100;
+// var second = 110;
+
+// if (first > second) {
+//     alert("first grater than second")
+// }
+// else { alert("first less than second") }
+
+// Ans No.5
+// var firstName = prompt("Enter First Name");
+// var lastName = prompt("Enter Last Name");
+// var fullName = "Habib Mohsin";
+// var userInputName = firstName +" " + lastName;
+// if (fullName == userInputName) { alert(userInputName) }
+
+// Chapter 14 (If statements nested)
+
+// Ans No.1
+// var passWord = prompt("Enter Password");
+
+// if (passWord !== "") {
+//     if (passWord.length <= 5) {
+//         alert("Password must be greater than 5");
+//     } else {
+//         alert("OK");
+//     }
+// }
+
+// Ans No.2
+// var a = 1;
+// var c = "Max";
+// if (a === 1) {
+//     if (c === "Max") {
+//         alert("OK");
+//     }
+// }
+
+// Ans No.3
+// var a = 1;
+// var c = "Max";
+// if (a === 1 || c === "Max") {
+//     alert("OK");
+// }
+
+// Ans No.4
+// var a = 5;
+// var b = 10;
+
+// if (a === b) {
+//     alert("Equal Both Varialbles");
+
+// }
+// if (a != b) {
+//     if (a > b) { alert("a Grater Than b") }
+//     else { alert("a Less Than b") }
+// }
+
+// Chapter 15 (Array I)
+
+// Ans No.1
+// var a = [];
+
+// Ans No.2
+// var a = ["Habib Moshin"];
+
+// Ans No.3
+// var alphabet = ["h","i","j","k"]
+// alert(alphabet[2]);
+
+// Ans No.4
+// var alphabet=["h","i","j","k", "l","m", "n","o"]
+// console.log(alphabet.length);
+
+// Ans No.5
+// var a = ["habib"];
+// a[1] = "mohsin";
+// console.log(a[1]);
+
+// Chapter 16 (Array III)
+
+// Ans No.1
+// var sizes = ["S", "M", "XL", "XXL", "XXXL"]
+// sizes.shift();
+// console.log(sizes);
+
+// Ans No.2
+// var sizes = ["S", "M", "XL", "XXL", "XXXL"]
+// sizes.unshift("P", 'Q', "R")
+// console.log(sizes);
+
+// Ans No.3
+// var a = ["habib"]
+// a[1]="mohsin"
+// alert(a[1]);
+
+// Ans No.4
+// var sizes = ["S", "M", "XL", "XXL", "XXXL"];
+// sizes.splice(2,0,"L");
+// console.log(sizes);
+
+// Ans No.5
+// var sizes = ["S", "M", "XL", "XXL", "XXXL"]
+// var newSizes =sizes.slice(0,3);
+// console.log(newSizes);
+
+// Ans No.6
+// var pets = ["dog", "cat", "ox", "duck", "frog"]
+// pets.splice(1,3, "abc", "xyz")
+// console.log(pets);
+
+// Ans No.7
+// var pets = ["dog", "cat", "ox", "duck", "frog"]
+// pets.splice(1,2);
+// console.log(pets);
+
+// Ans No.8
+// var pets = ["dog", "cat", "ox", "duck", "frog", "flea"];
+// var reduce = pets.slice(3,5);
+// console.log(reduce);

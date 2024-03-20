@@ -577,3 +577,46 @@
 // var pets = ["dog", "cat", "ox", "duck", "frog", "flea"];
 // var reduce = pets.slice(3,5);
 // console.log(reduce);
+
+// Chapter 17 - 20 (for Loops)
+
+// Ans No.1
+// for(
+//     var i = 0; i <= 9; i++
+// );
+// console.log(i);
+
+// Ans No.2
+// for (var i = 0; i <= 11; i++);
+// console.log(i);
+
+// Ans No.3
+// for(var i = 0; i <= 4; i++);
+
+// Ans No.4
+// for(var a = 0; a < 100; a++);
+// console.log(a);
+// For loop runs 100 times
+
+// Ans No.5 Not Solve
+// var counter = 1;
+// for(var a = counter; a > 3; a++);
+// console.log(a);
+
+// Ans No.6
+// var num = [1,2,3,4,5,6,7];
+// console.log(num);
+
+// Ans No.7
+// var flag = true;
+// console.log(flag);
+
+// Ans No.8
+// var pets = ["dog", "cat", "mouse"]
+// for(var i = 0; i > pets.length; i++);
+// console.log(pets);
+
+// Ans No.9
+// var num = ["10","5","6","1","7","8","2","1"];
+// for(var i = 0; i >= 10; i++);
+// alert(i=num[1]);

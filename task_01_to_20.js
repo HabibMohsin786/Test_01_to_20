@@ -281,9 +281,7 @@
 // var enterEmail = "Enter Email Address";
 // var likeThis = "abcd1234@gmail.com";
 // var emailAddress = prompt(enterEmail, likeThis);
-// console.log("Message :", enterEmail);
-// console.log("Defaul Value :", likeThis);
-// console.log("User Input :", emailAddress);
+// alert(emailAddress);
 
 // Chapter 10 (if statments)
 
@@ -620,3 +618,39 @@
 // var num = ["10","5","6","1","7","8","2","1"];
 // for(var i = 0; i >= 10; i++);
 // alert(i=num[1]);
+
+// Ans No.10
+// var userName = ["Habib", "Mohsin", "Moosa", "Ali", "Qadir"];
+// var firstName = prompt("Enter First Name");
+// for (var i = 0; i <= userName.length; i++) {
+//   if (firstName === userName[i]) {
+//     alert("Enter");
+//     break;
+//   } else if (i === userName.length - 1) {
+//     alert("Please write correct user name");
+//   }
+// }
+
+// Ans No.11
+// var list = ["Habib", "Mohsin", "Moosa", "Ali", "Qadir"];
+// var userInput = prompt("Enter Name");
+// var matchFound = false;
+// for (var i = 0; i < list.length; i++) {
+//   if (userInput === list[i]) {
+//     alert("Match found");
+//     matchFound = true;
+//     break;
+//   } else if (i === list.length - 1) {
+//     alert("match isn't foundd");
+//   }
+// }
+
+// Ans No.12
+// var firstArr = ["a", "b", "c", "d", "e", "f"];
+// var secondArr = [1, 2, 3, 4, 5, 6];
+
+// for (var i = 0; i < firstArr.length; i++){
+//     for (var j = 0; j <secondArr.length; j++){
+//         console.log(firstArr[i],secondArr[j])
+//     }
+// }
